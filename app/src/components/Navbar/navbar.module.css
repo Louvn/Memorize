@@ -1,0 +1,9 @@
+.navbar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    height: 72px;
+    background-color: var(--secondary-color);
+    box-shadow: 0 0 4px black;
+    padding: 5px;
+}

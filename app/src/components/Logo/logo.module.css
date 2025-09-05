@@ -1,0 +1,17 @@
+.logo {
+    display: flex;
+    gap: 12px;
+    height: 100%;
+    align-items: center;
+}
+.logoText {
+    font-size: 48px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: "Asimovian", sans-serif;
+    height: 100%;
+}
+.logoImg {
+    height: 100%;
+    width: auto;
+}
