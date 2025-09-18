@@ -36,7 +36,7 @@ function App() {
 
         <main className="content">
             <Routes>
-                <Route path="/" element={<Home notes={notes} />} />
+                <Route path="/" element={<Home notes={notes} setNotes={setNotes}/>} />
                 <Route path="/note-editor/:id" element={<NoteEditor notes={notes} setNotes={setNotes} />} />
             </Routes>
         </main>
